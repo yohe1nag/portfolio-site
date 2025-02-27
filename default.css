@@ -1,0 +1,56 @@
+:root{
+    --text-color: #1a1c20;
+    --link-color: #4a76ee;
+    --background-color: #eeeff1;
+    --font-size: 16px;
+    /* HEADER */
+    /* Section1: Hero */
+    /* Section2: Skills */
+    /* Section3: Testimony */
+    /* Section4: Contact */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family:'poppims', sans-serif;
+    background-color: var(--background-color);
+    max-width: 140rem;
+    margin: 0 auto;
+}
+
+a{
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.fx-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.fx-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.ta-cen{
+    text-align: center;
+}
+
+.ta-lef{
+    text-align: left;
+}
+.ta-rig{
+    text-align: right;
+}
